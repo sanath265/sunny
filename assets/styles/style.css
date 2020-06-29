@@ -200,7 +200,7 @@ section{
     /*responsive designing*/
 @media only screen and (min-width : 320px) and (max-width : 767px) {
     nav ul li {
-    padding-right: 50px;/* px,em,pt,cm,%*/
+    padding-right: 40px;/* px,em,pt,cm,%*/
     font-size: 24px;
     }
     nav{
@@ -209,18 +209,18 @@ section{
     }
     .home{
     font-size: 30px;
-    height: 100vh;
+    height: 225vh;
     width:225%;
 }
     .about{
     display: table;
-    height:100vh;
-    width:215%;
+    height:225vh;
+    width:213.5%;
     padding-right: 10;
     }
     .about .inner p{
     font-size: 40px;
-    line-height: 50px;
+    line-height: 100px;
     }
     .about .inner{
     width: 90%;
@@ -229,12 +229,18 @@ section{
     }
     .education{
         width: 225%;
+        height: 225vh;
     }
     .skills{
         width: 225%;
+        height: 225vh;
     }
     .hobbies,.contact{
         width: 225%;
+        height: 225vh;
+    }
+    .contact .inner p{
+        line-height: 25vh;
     }
     
     }
