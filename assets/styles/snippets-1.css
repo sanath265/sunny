@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+}
+.button button{
+    padding:15px 25px;
+    /* top left-right bottom
+       top-bottom left-right
+       top right left bottom
+       top-left-right-bottom
+    */
+    background-color: #363636;
+    color: white;
+    font-size: 25px;
+    border-color: #99d8d0;
+}
+.button button a{
+    color:white;
+    text-decoration-line: none;
+}
+@media(min-width:1440px) and (max-width:2560){
+    .button .a{
+        padding: 15px 45px;
+        font-size: 36px;
+    }
+}
+@media(min-width:1024px) and (max-width:1439){
+    .button .b{
+        padding: 13px 35px;
+        font-size: 24px
+    }
+}
+@media(min-width:768px) and (max-width:1023){
+    .button .c{
+        padding: 11px 25px;
+        font-size: 18px;
+    }
+}
+@media(min-width:425px) and (max-width:767){
+    .button .d{
+        padding: 9px 15px;
+        font-size: 16px;
+    }
+}
+@media(min-width:320px) and (max-width:424){
+    .button .e{
+        padding: 7px 5px;
+        font-size: 12px;
+    }
+}
